@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0346/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5c0346/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太極真人雜丹藥方
+  date: '2015-08-29 00:56:21.929669'
+  source:
+    repository: kanripo
+    path: KR5c0346
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0346_000-HFL.yaml, hash: 'sha256:c1953e911ca86b0e9a8ab6be2cee27e511520523f5146830834dbec96601ba0b'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0346_000-HFL.markers.yaml, hash: 'sha256:595939afda0566c53621e7636b3b4f2d1264db934feae4c7c57d3b4b39d0abb3'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0346_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 3250
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:be9c81f7673ebdd363ff1b0465db2a3f861c8b504d5b4d0fb3e634818c365efe
